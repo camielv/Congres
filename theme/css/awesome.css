@@ -1,0 +1,53 @@
+body {
+  background:#eee;
+  color:#444;
+  font-size:12px;
+  line-height:150%;
+  font-family: Helvetica;
+}
+
+h1 {color:#FF8F00; font-size:30px; line-height:60px; margin-top:0;}
+
+body, ul {margin:0; padding:0}
+
+ul {list-style:none;}
+ul li {padding:3px 0;}
+a {color:#000; text-decoration:none;}
+a:hover {color:blue;}
+button {cursor:pointer;}
+
+.container {margin:0 auto; width:960px;}
+
+#header, #menu, #content, #footer {float:left; width:900px; padding:20px 30px; background:#fcfcfc;}
+
+#title  a {display:block; float:left; text-indent:-9999px; background:url('logo.png'); width:175px; height:140px;}
+
+#menu {background:#ff8a00; border:1px solid #ff9314; padding:7px 30px; border-left:0; border-right:0;}
+.nav {float:left;}
+.nav li {float:left;}
+.nav a {color:#fff; font-size:15px; margin-right:17px; text-transform:uppercase; border-bottom:2px solid #ff8a00;}
+.nav a:hover {border-bottom:2px solid #fff;}
+#footer{font-size: 10px;}
+#footer img{margin: 10px;}
+#template img{border: solid 2px #ff8a00; position:relative; float:right; margin:-25px 0 0 10px; width:685px;}
+#slideshow {position:relative; float:right; margin:-25px 0 0 10px; width:680px; height:140px;}
+#slideshow IMG {position:absolute; top:0; left:0; z-index:8;}
+#slideshow IMG.active {z-index:10;}
+#slideshow IMG.last-active {z-index:9;}
+
+.pagemenu {float: left; width: 20%; border: 2px solid #ff8a00;}
+.pagecontent {float: right; width: 75%;}
+#speakernav{padding: 5px;}
+#speakernav a:hover{cursor:pointer;}
+.show{display: block;}
+.hide{display: none;}
+.speakerimage {float: right; margin: 5px;}
+.programma table, td, th {margin: 10px; padding: 10px; text-align:center; font-size: 13px;}
+.boxed {border: 2px solid #ff8a00;}
+.menu_right {float: right; width: 30%;}
+.content_left {float: left; width: 60%;}
+.reservation form {border: dotted 1px #ff8a00; background: #f5f5dc; padding: 10px; width: 300px;}
+.reservation input, select {display: block; font-size: 13px; margin-bottom: 10px; padding: 4px; border: solid 1px #ff8a00; width: 200px; background: #fff;}
+.reservation legend {font-size: 15px; font-weight: bold;}
+.reservation li {border: dotted #ff8a00; border-width: 1px 0 0 0;}
+.pref{display: block; font-size: 13px; margin-bottom: 10px; padding: 4px; border: solid 1px #ff8a00; width: 200px; background: #fff;}
